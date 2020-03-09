@@ -9,10 +9,10 @@
 <!--        <property name="instanceA" ref="instanceA"/>-->
 <!--    </bean>-->
 
-<!--    <bean id="instanceA" class="com.lsl.blogs.beaninst.InstanceA">-->
-<!--        <constructor-arg name="instanceB" ref="instanceB"/>-->
-<!--    </bean>-->
-<!--    <bean id="instanceB" class="com.lsl.blogs.beaninst.InstanceB">-->
-<!--        <property name="instanceA" ref="instanceA"/>-->
-<!--    </bean>-->
+    <bean id="instanceA" class="com.lsl.blogs.beaninst.InstanceA">
+        <constructor-arg name="instanceB" ref="instanceB"/>
+    </bean>
+    <bean id="instanceB" class="com.lsl.blogs.beaninst.InstanceB">
+        <constructor-arg name="instanceA" ref="instanceA"/>
+    </bean>
 </beans>
