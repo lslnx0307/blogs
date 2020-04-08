@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * @Title: blogs
  * @Package com.lsl.blogs.listener
  * @Description: :
- * @E-mail: shiliang.li@baozun.com
+ * @E-mail: shiliang.li
  * @time 2019/12/26 17:47
  */
 
